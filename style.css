@@ -64,3 +64,14 @@ body{
     justify-content: flex-end;
     
 }
+
+/* RESPONSIVENESS */
+@media(max-width:992px){
+    .boxes-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+}
